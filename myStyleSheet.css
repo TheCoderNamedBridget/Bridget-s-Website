@@ -1,0 +1,45 @@
+
+
+body {
+font-family: Arial, sans-serif;
+text-align: center;
+height: 200px;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+
+#firstname {
+  transform: rotateY(130deg);
+overflow: visible;
+
+}
+
+#hometown {
+  width: 50%;
+  text-transform: capitalize;
+}
+
+#likes {
+background-color: pink;
+  text-transform: capitalize;
+}
+
+#websites {
+
+   border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: 200px;
+  height: 5px;
+}
+
+
+.center {
+  
+  color: blue;
+outline-style: dotted;
+}
+
