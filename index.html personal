@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="column">
+        
+<br><img src="croppedprofilepic.png" alt="profilepic" width="300" height="300" ><br>
+
+        <p><h1>Bridget Naylor</h1>
+        Android Developer</p><br>
+        Some content!<br>
+    </div>
+
+    <div class="column">
+        Something
+    </div>
+
+</div>
+
+<div id="mySidenav" class="sidenav">
+<br><br>
+  <a href="#" onclick="dosomething()">About</a><br>
+  <a href="#">Portfolio</a><br>
+  <a href="#">Clients</a><br>
+  <a href="#">Contact</a><br>
+</div>
+<script>
+
+function dosomething() {
+  document.getElementById("mySidenav").style.width = "10%";
+}
+
+</script>
+
+</body>
+</html>
