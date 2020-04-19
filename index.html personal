@@ -13,7 +13,6 @@
 <br><img src="croppedprofilepic.png" alt="profilepic" width="300" height="300" ><br>
 
         <p><h1>Bridget Naylor</h1>
-        Android Developer</p><br>
         Some content!<br>
     </div>
 
@@ -25,16 +24,14 @@
 
 <div id="mySidenav" class="sidenav">
 <br><br>
-  <a href="#" onclick="dosomething()">About</a><br>
-  <a href="#">Portfolio</a><br>
+  <a href="about.html" " onclick="return true">About</a><br>
+  <a href="portfolio.html" " onclick="return true">Portfolio</a><br>
   <a href="#">Clients</a><br>
-  <a href="#">Contact</a><br>
+  <a href="contact.html" " onclick="return true">Contact</a><br>
+  <a href="index.html" " onclick="return true">Index</a><br>
 </div>
 <script>
 
-function dosomething() {
-  document.getElementById("mySidenav").style.width = "10%";
-}
 
 </script>
 
