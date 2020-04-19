@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="column">
+        
+<br><img src="croppedprofilepic.png" alt="profilepic" width="300" height="300" ><br>
+
+        <p><h1>Bridget Naylor</h1>
+        <img src="greentrex.png" alt="profilepic" width="600" height="300" ><br>
+    </div>
+
+    <div class="column">
+        Something
+    </div>
+
+</div>
+
+<div id="mySidenav" class="sidenav">
+<br><br>
+  <a href="about.html" " onclick="return true">About</a><br>
+  <a href="portfolio.html" " onclick="return true">Portfolio</a><br>
+  <a href="#">Clients</a><br>
+  <a href="contact.html" " onclick="return true">Contact</a><br>
+  <a href="index.html" " onclick="return true">Index</a><br>
+</div>
+<script>
+
+
+
+</script>
+
+</body>
+</html>
