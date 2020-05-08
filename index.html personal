@@ -12,25 +12,22 @@
         
 <br><img src="croppedprofilepic.png" alt="profilepic" width="300" height="300" ><br>
 
-        <p><h1>Bridget Naylor</h1>
-        Some content!<br>
+        <p><h1>Bridget Naylor
+<br>
+	<b><center>Bridget is currently studying Computer Science at California State University Long Beach.<br> She has a particular interest in Android Mobile Development and currently has 3 apps on <br> the Google Play store. In addition to Mobile Development Bridget is also part of the<br> Video Game Development Club at CSULB. The Video Game Development Club helps<br> it's members gain interpersonal skills and learn to collaborate in a team environment.<br> When she's not writing code, Bridget spends her time running, rock climbing,<br> or practicing Chinese.</center></b></h1>
     </div>
 
-    <div class="column">
-        Something
-    </div>
 
 </div>
 
 <div id="mySidenav" class="sidenav">
 <br><br>
-  <a href="about.html" " onclick="return true">About</a><br>
+  <a href="index.html" " onclick="return true">About</a><br>
   <a href="portfolio.html" " onclick="return true">Portfolio</a><br>
-  <a href="#">Clients</a><br>
   <a href="contact.html" " onclick="return true">Contact</a><br>
-  <a href="index.html" " onclick="return true">Index</a><br>
 </div>
 <script>
+
 
 
 </script>
