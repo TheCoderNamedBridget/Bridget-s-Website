@@ -1,36 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<meta name="description" content="Bridget Naylor professional website and skills information" />
+<meta name="author" content="Bridget Naylor" />
+<title>Bridget Naylor Homepage</title>
 <link rel="stylesheet" href="mystyle.css">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<style>
+p {
+  font-size: 10px;
+}
+</style>
 </head>
 <body>
-
-<div class="container">
-
-    <div class="column">
+<a id="top"><a/>
         
-<br><img src="croppedprofilepic.png" alt="profilepic" width="300" height="300" ><br>
+<br><img src="croppedprofilepic.png" alt="profilepic" width="300" height="300" > 
+<h1>Bridget Naylor</h1>
+<div id="Description">
+	<p><center>Bridget is currently studying Computer Science at California State University Long Beach.<br> 
+She has a particular interest in <strong>Android Mobile Development</strong> and currently has 3 apps on <br> 
+the Google Play store. In addition to Mobile Development Bridget is also part of the<br> 
+<strong>Video Game Development Club</strong> at CSULB. When she's not writing code, Bridget<br> spends her time running, rock climbing, or practicing Chinese.
+</p></center></div>
 
-        <p><h1>Bridget Naylor
-<br>
-	<b><center>Bridget is currently studying Computer Science at California State University Long Beach.<br> She has a particular interest in Android Mobile Development and currently has 3 apps on <br> the Google Play store. In addition to Mobile Development Bridget is also part of the<br> Video Game Development Club at CSULB. The Video Game Development Club helps<br> it's members gain interpersonal skills and learn to collaborate in a team environment.<br> When she's not writing code, Bridget spends her time running, rock climbing,<br> or practicing Chinese.</center></b></h1>
-    </div>
 
-
-</div>
-
-<div id="mySidenav" class="sidenav">
+<div id="SideNav" class="sidenav">
 <br><br>
-  <a href="index.html" " onclick="return true">About</a><br>
-  <a href="portfolio.html" " onclick="return true">Portfolio</a><br>
-  <a href="contact.html" " onclick="return true">Contact</a><br>
+	<a href="index.html" " onclick="return true">About</a><br>
+	<a href="portfolio.html" " onclick="return true">Portfolio</a><br>
+	<a href="contact.html" " onclick="return true">Contact</a><br>
+	<!--<a href="mailto:bridgetnaylor2000&#64
+gmail.com" >Send us</a><br>-->
+	
 </div>
-<script>
 
-
-
-</script>
-
+<div id="Footer">
+	<a href="#top">Return to top</a>
+	<p>&copy2020. Bridget Naylor. All Rights Reserved.
+</div>
 </body>
 </html>
