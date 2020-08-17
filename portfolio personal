@@ -1,156 +1,253 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<a id="top"></a>
+<meta name="description" content="Coding Portfolio" />
+
+<meta name="author" content="Bridget Naylor" />
+
+<link rel="stylesheet" href="mystyle.css">
+
+<title>Bridget Naylor Portfolio</title>
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
 <br><img src="croppedprofilepic.png" alt="profilepic" width="300" height="300" ><br>
 
         <p><h1>Bridget Naylor</h1>
 
-</head>
 
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
 <body>
+
+
+<h1><center><u> Projects </u></center></h1>
+  <!-- Full-width images with number and caption text -->
 <div class="row">
   <div class="column">
-    <img src="collegetourappingoogleplaystore.png" alt="Snow" style="width:10%">
-<img src="collegetourappingoogleplaystore.png" alt="Forest" style="width:10%">
-  </div>
-  <div class="column">
-    <img src="collegetourappingoogleplaystore.png" alt="Forest" style="width:10%">
-  </div>
-  <div class="column">
-    <img src="img_mountains.jpg" alt="Mountains" style="width:10%">
-  </div>
-</div>
+    <div class="slideshow-container">
 
 
-
-<div class="slideshow-container">
-<h1><center><u> Projects <u></center></h1>
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 6</div>
-    <img src="collegetourappingoogleplaystore.png" style="width:22%">
+<h1> Android Mobile Apps </h1>
+  <div class="collegetour fade">
+    <div class="numbertext"><b>College Tour</b></div>
+    <img src="Collegetourtitlepage.png" border="3" style="width:50%">
     <div class="text"></div>
   </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 6</div>
-    <img src="Collegetourtitlepage.png" style="width:15%">
+  <div class="collegetour fade">
+    <div class="numbertext"><b>College Tour</b></div>
+    <img src="CollegeTourMenuOptions.png" border="3" style="width:50%">
     <div class="text"></div>
   </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 6</div>
-    <img src="CollegeTourMenuOptions.png" style="width:15%">
+  <div class="collegetour fade">
+    <div class="numbertext"><b>College Tour</b></div>
+    <img src="collegetourmap.png" border="3" style="width:50%">
     <div class="text"></div>
   </div>
-  <div class="mySlides fade">
-    <div class="numbertext">4 / 6</div>
-    <img src="collegetourmap.png" style="width:15%">
+  <div class="collegetour fade">
+    <div class="numbertext"><b>College Tour</b></div>
+    <img src="collegetourmapsearch.png" border="3" style="width:50%">
     <div class="text"></div>
   </div>
-  <div class="mySlides fade">
-    <div class="numbertext">5 / 6</div>
-    <img src="collegetourmapsearch.png" style="width:15%">
-    <div class="text"></div>
-  </div>
-  <div class="mySlides fade">
-    <div class="numbertext">6 / 6</div>
-    <img src="collegetourbuildingdescription.png" style="width:15%">
+  <div class="collegetour fade">
+    <div class="numbertext"><b>College Tour</b></div>
+    <img src="collegetourbuildingdescription.png" border="3" style="width:50%">
     <div class="text"></div>
   </div>
 
   <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <a class="prev" onclick="plusSlides(-1, 'collegetour')">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 'collegetour')">&#10095;</a>
 </div>
-<br>
-    <div class="container">
+<br><br>
 
-    <div class="column">
+<div class="slideshow-container2">
+  <div class="converter fade">
+    <div class="numbertext"><b>Number Systems Converter</b></div>
+    <img src="titlepageconverter.png" border="3" style="width:50%">
+    <div class="text"></div>
+  </div>
+  <div class="converter fade">
+    <div class="numbertext"><b>Number Systems Converter</b></div>
+    <img src="calculatorpageconverter.png" border="3" style="width:50%">
+    <div class="text"></div>
+  </div>
+  <div class="converter fade">
+    <div class="numbertext"><b>Number Systems Converter</b></div>
+    <img src="answerforcalculatorpageconverter.png" border="3" style="width:50%">
+    <div class="text"></div>
+  </div>
+  <div class="converter fade">
+    <div class="numbertext"><b>Number Systems Converter</b></div>
+    <img src="practiceconvertingpage.png" border="3" style="width:50%">
+    <div class="text"></div>
+  </div>
+  <div class="converter fade">
+    <div class="numbertext"><b>Number Systems Converter</b></div>
+    <img src="answerconvertingpage.png" border="3" style="width:50%">
+    <div class="text"></div>
+  </div>
+  <div class="converter fade">
+    <div class="numbertext"><b>Number Systems Converter</b></div>
+    <img src="explanationpracticeconverting.png" border="3" style="width:50%">
+    <div class="text"></div>
+  </div>
+</div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1, 'converter')">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 'converter')">&#10095;</a>
+
+<br> <br><br>
+<div class="slideshow-container3">
+  <div class="tictactoe fade">
+    <div class="numbertext"><b>Tic Tac Toe</b></div>
+    <img src="titactotitle.png" border="3" style="width:50%">
+    <div class="text"></div>
+  </div>
+  <div class="tictactoe fade">
+    <div class="numbertext"><b>Tic Tac Toe</b></div>
+    <img src="tictactoeselectsymbol.png" border="3" style="width:50%">
+    <div class="text"></div>
+  </div>
+  <div class="tictactoe fade">
+    <div class="numbertext"><b>Tic Tac Toe</b></div>
+    <img src="tictactoeselectdifficulty.png" border="3" style="width:50%">
+    <div class="text"></div>
+  </div>
+  <div class="tictactoe fade">
+    <div class="numbertext"><b>Tic Tac Toe</b></div>
+    <img src="tictactoegameplay.png" border="3" style="width:50%">
+    <div class="text"></div>
+  </div>
+  <div class="tictactoe fade">
+    <div class="numbertext"><b>Tic Tac Toe</b></div>
+    <img src="tictactoewinscreen.png" border="3" style="width:50%">
+    <div class="text"></div>
+  </div>
+</div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1, 'tictactoe')">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 'tictactoe')">&#10095;</a>
+
+<br>
+<br><br>
+  </div>
+  <div class="column">
+	<h1 style="text-align:right;"> Video Games </h1>
+  <div class="raccoongroupproject fade">
+    <div class="text"></div>
+  </div>
+<div class="numbertext" style="text-align:right;"><b >Protect the Bin: Crabs vs. Raccoons<br> (Use WASD keys to view map)</b></div>
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebBuild.json", {onProgress: UnityProgress});
+    </script>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
         
 
 
+
+
+
 <script>
+
 var slideIndex = 1;
-showSlides(slideIndex);
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+
+showSlides(slideIndex, 'collegetour');
+
+showSlides(slideIndex, 'converter');
+
+showSlides(slideIndex, 'tictactoe');
+
+showSlides(slideIndex, 'raccoongroupproject');
+
+
+function plusSlides(n, app) {
+ 	showSlides(slideIndex += n, app);
 }
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+function currentSlide(n, app) {
+ 	showSlides(slideIndex = n, app);
 }
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
+function showSlides(n, app) {
+ 	var i;
+
+	if ( app.localeCompare("collegetour") === 0 ) {
+  		var slides = document.getElementsByClassName("collegetour");
+
+
+	} else if ( app.localeCompare("converter") === 0 ) {
+
+		var slides = document.getElementsByClassName("converter");
+	} else if ( app.localeCompare("tictactoe") === 0 ) {
+
+		var slides = document.getElementsByClassName("tictactoe");
+	} else if ( app.localeCompare("raccoongroupproject") === 0 ) {
+
+		var slides = document.getElementsByClassName("raccoongroupproject");
+}
+
+
+
   if (n > slides.length) {slideIndex = 1}    
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
+
   }
   slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
+
 }
-  </div>
-  <div class="column">
-    <img src="img_forest.jpg" alt="Forest" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
-  </div>
-</div>
 
 
 </script>
 
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-	<span class="dot" onclick="currentSlide(4)"></span>
-	<span class="dot" onclick="currentSlide(5)"></span>
-<span class="dot" onclick="currentSlide(6)"></span>
-
-<br><br>
-<p><b><u>Number Systems Converter</u></b></p>
-        <img src="titlepageconverter.png" alt="profilepic" width="=200" height="400" >
-	<img src="calculatorpageconverter.png" alt="profilepic" width="200" height="400" >
-	<img src="answerforcalculatorpageconverter.png" alt="profilepic" width="200" height="400" >
-	<img src="practiceconvertingpage.png" alt="profilepic" width="200" height="400" >
-	<img src="answerconvertingpage.png" alt="profilepic" width="200" height="400" >
-	<img src="explanationpracticeconverting.png" alt="profilepic" width="200" height="400" >
-
-    </div>
-<br><br>
-<p><b><u>Tic Tac Toe App</u></b></p>
-        <img src="titactotitle.png" alt="profilepic" width="=200" height="400" >
-	<img src="tictactoeselectsymbol.png" alt="profilepic" width="200" height="400" >
-	<img src="tictactoeselectdifficulty.png" alt="profilepic" width="200" height="400" >
-	<img src="tictactoegameplay.png" alt="profilepic" width="200" height="400" >
-	<img src="tictactoewinscreen.png" alt="profilepic" width="200" height="400" >
-
-    </div>
 
 
 <div id="mySidenav" class="sidenav">
 <br><br>
-  <a href="index.html" " onclick="return true">About</a><br>
-  <a href="portfolio.html" " onclick="return true">Portfolio</a><br>
-  <a href="contact.html" " onclick="return true">Contact</a><br>
+	<a href="index.html" " onclick="return true">About</a><br>
+	<a href="portfolio.html" " onclick="return true">Portfolio</a><br>
+	<a href="contact.html" " onclick="return true">Contact</a><br>
 </div>
-<script>
-
-
-
-</script>
-
+<div id="Footer">
+	<a href="#top">Return to top</a>
+	<br>
+	<?--<p>&copy2020. Bridget Naylor. All Rights Reserved.</p>
+</div>
 </body>
 </html>
