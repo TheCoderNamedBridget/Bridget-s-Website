@@ -3,22 +3,24 @@
 <head>
 <meta name="description" content="Bridget Naylor professional website and skills information" />
 <meta name="author" content="Bridget Naylor" />
-<title>Bridget Naylor Homepage</title>
+<title >Bridget Naylor Homepage</title>
 <link rel="stylesheet" href="mystyle.css">
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <style>
-p {
-  font-size: 10px;
+	p {
+	font-size: 180%;
+	line-height:2;
+	
 }
 </style>
 </head>
 <body>
 <a id="top"><a/>
         
-<br><img src="croppedprofilepic.png" alt="profilepic" width="300" height="300" > 
-<h1>Bridget Naylor</h1>
+<br><img src="croppedprofilepic.png" alt="profilepic" width="300" height="300" class="center" > 
+<h1 id = "name" ><center>Bridget Naylor</center></h1>
 <div id="Description">
-	<p><center>Bridget is currently studying Computer Science at California State University Long Beach.<br> 
+	<center><p>Bridget is currently studying Computer Science at California State University Long Beach.<br> 
 She has a particular interest in <strong>Android Mobile Development</strong> and currently has 3 apps on <br> 
 the Google Play store. In addition to Mobile Development Bridget is also part of the<br> 
 <strong>Video Game Development Club</strong> at CSULB. When she's not writing code, Bridget<br> spends her time running, rock climbing, or practicing Chinese.
@@ -37,7 +39,7 @@ gmail.com" >Send us</a><br>-->
 
 <div id="Footer">
 	<a href="#top">Return to top</a>
-	<p>&copy2020. Bridget Naylor. All Rights Reserved.
+	<br>&copy2020. Bridget Naylor. All Rights Reserved.
 </div>
 </body>
 </html>
