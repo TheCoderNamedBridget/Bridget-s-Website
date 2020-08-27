@@ -1,49 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="icon" class="img-circle" href="croppedprofilepic.png" >
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 	<meta name="description" content="Bridget Naylor professional website and skills information" />
 	<meta name="author" content="Bridget Naylor" />
+	<link rel="icon" class="img-circle" href="croppedprofilepic.png" >
 	<title >Bridget Naylor Homepage</title>
-	<link rel="stylesheet" href="mystyle.css">
-	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	
+	<link rel="stylesheet" href="\home\zz\025531413\htdocs\mystyle.css">
+
 	<style>
+		body {
+  height: 100%;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
 		p {
 		font-size: 180%;
 		line-height:2;
 	
 		}
-	</style>
-</head>
-<body>
-<a id="top"><a/>
 
+		/* The ocean image */
+.ocean-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (greentrex.png). This will make the text easier to read */
+  	background-image: url("Images/Background/banner.jpg");
 
+  /* Set a specific height */
+  	height: 100%;
 
-<div class="ocean-image">
- 	<div class="ocean-image">
-<br><br><br><br><br><br>
-            <br><center><img class="img-circle" src="croppedprofilepic.png" alt="profilepic" width="300" height="300"> 
-		<h1 id = "namefirst" >Bridget Naylor</h1></center>
+  /* Position and center the image to scale nicely on all screens */
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
 
-<div id="Description">
-	<center><p>Bridget is currently studying Computer Science at California State University Long Beach.<br> 
-She has a particular interest in <strong>Android Mobile Development</strong> and currently has 3 apps on <br> 
-the Google Play store. In addition to Mobile Development Bridget is also part of the<br> 
-<strong>Video Game Development Club</strong> at CSULB. When she's not writing code, Bridget<br> spends her time running, rock climbing, or practicing Chinese.
-</p></center></div>
-		<br><br><br><br><br><br><br>
- 	</div>
-	
-</div>
+	padding: 110px;
+  	border: 1px solid #000000;
+ 	
+} 
 
+.img-circle {
+	border-radius: 50%;
+	background-position: center;
 
-
-
-
+}
 
 <!--Portfolio stats -->
-<style>
+
 * {
   box-sizing: border-box;
 }
@@ -60,11 +64,32 @@ the Google Play store. In addition to Mobile Development Bridget is also part of
   clear: both;
   display: table;
 }
-</style>
+	</style>
+</head>
+<body>
+<a id="top"><a/>
 
 
 
-<h1><center><u> Projects </u></center></h1>
+<div class="ocean-image">
+
+            	<br><center><img class="img-circle" src="Images/Background/croppedprofilepic.png" alt="profilepic" width="300" height="300"> 
+		<h1 id = "namefirst" >Bridget Naylor</h1></center>
+
+	<div id="Description">
+		<center><p>I am currently a pre-computer science student at California State University Long Beach<br> 
+	with a particular interest in <strong>Android Mobile Development</strong>. I currently have 3 apps on <br> 
+	the Google Play store. In addition to Mobile Development I am also part of the<br> 
+	<strong>Video Game Development Club</strong> at CSULB. When I'm not coding, I<br> spend my time running, rock climbing, or practicing Chinese.
+	</p></center></div>
+
+	
+</div>
+
+
+<!--Portfolio stats -->
+
+<h1><center><u> Portfolio </u></center></h1>
   <!-- Full-width images with number and caption text -->
 <div class="row">
   <div class="column">
@@ -74,27 +99,27 @@ the Google Play store. In addition to Mobile Development Bridget is also part of
 <h1> Android Mobile Apps </h1>
   <div class="collegetour fade">
     <div class="numbertext"><b>College Tour</b></div>
-    <img src="Collegetourtitlepage.png" border="3" style="width:50%">
+    <img src="Images/AppImages/Collegetourtitlepage.png" border="3" style="width:50%">
     <div class="text"></div>
   </div>
   <div class="collegetour fade">
     <div class="numbertext"><b>College Tour</b></div>
-    <img src="CollegeTourMenuOptions.png" border="3" style="width:50%">
+    <img src="Images/AppImages/CollegeTourMenuOptions.png" border="3" style="width:50%">
     <div class="text"></div>
   </div>
   <div class="collegetour fade">
     <div class="numbertext"><b>College Tour</b></div>
-    <img src="collegetourmap.png" border="3" style="width:50%">
+    <img src="Images/AppImages/collegetourmap.png" border="3" style="width:50%">
     <div class="text"></div>
   </div>
   <div class="collegetour fade">
     <div class="numbertext"><b>College Tour</b></div>
-    <img src="collegetourmapsearch.png" border="3" style="width:50%">
+    <img src="Images/AppImages/collegetourmapsearch.png" border="3" style="width:50%">
     <div class="text"></div>
   </div>
   <div class="collegetour fade">
     <div class="numbertext"><b>College Tour</b></div>
-    <img src="collegetourbuildingdescription.png" border="3" style="width:50%">
+    <img src="Images/AppImages/collegetourbuildingdescription.png" border="3" style="width:50%">
     <div class="text"></div>
   </div>
 
@@ -102,37 +127,36 @@ the Google Play store. In addition to Mobile Development Bridget is also part of
   <a class="prev" onclick="plusSlides(-1, 'collegetour')">&#10094;</a>
   <a class="next" onclick="plusSlides(1, 'collegetour')">&#10095;</a>
 </div>
-<br><br>
 
 <div class="slideshow-container2">
   <div class="converter fade">
     <div class="numbertext"><b>Number Systems Converter</b></div>
-    <img src="titlepageconverter.png" border="3" style="width:50%">
+    <img src="Images/AppImages/titlepageconverter.png" border="3" style="width:50%">
     <div class="text"></div>
   </div>
   <div class="converter fade">
     <div class="numbertext"><b>Number Systems Converter</b></div>
-    <img src="calculatorpageconverter.png" border="3" style="width:50%">
+    <img src="Images/AppImages/calculatorpageconverter.png" border="3" style="width:50%">
     <div class="text"></div>
   </div>
   <div class="converter fade">
     <div class="numbertext"><b>Number Systems Converter</b></div>
-    <img src="answerforcalculatorpageconverter.png" border="3" style="width:50%">
+    <img src="Images/AppImages/answerforcalculatorpageconverter.png" border="3" style="width:50%">
     <div class="text"></div>
   </div>
   <div class="converter fade">
     <div class="numbertext"><b>Number Systems Converter</b></div>
-    <img src="practiceconvertingpage.png" border="3" style="width:50%">
+    <img src="Images/AppImages/practiceconvertingpage.png" border="3" style="width:50%">
     <div class="text"></div>
   </div>
   <div class="converter fade">
     <div class="numbertext"><b>Number Systems Converter</b></div>
-    <img src="answerconvertingpage.png" border="3" style="width:50%">
+    <img src="Images/AppImages/answerconvertingpage.png" border="3" style="width:50%">
     <div class="text"></div>
   </div>
   <div class="converter fade">
     <div class="numbertext"><b>Number Systems Converter</b></div>
-    <img src="explanationpracticeconverting.png" border="3" style="width:50%">
+    <img src="Images/AppImages/explanationpracticeconverting.png" border="3" style="width:50%">
     <div class="text"></div>
   </div>
 </div>
@@ -141,41 +165,39 @@ the Google Play store. In addition to Mobile Development Bridget is also part of
   <a class="prev" onclick="plusSlides(-1, 'converter')">&#10094;</a>
   <a class="next" onclick="plusSlides(1, 'converter')">&#10095;</a>
 
-<br> <br><br>
 <div class="slideshow-container3">
   <div class="tictactoe fade">
     <div class="numbertext"><b>Tic Tac Toe</b></div>
-    <img src="titactotitle.png" border="3" style="width:50%">
+    <img src="Images/AppImages/titactotitle.png" border="3" style="width:50%">
     <div class="text"></div>
   </div>
   <div class="tictactoe fade">
     <div class="numbertext"><b>Tic Tac Toe</b></div>
-    <img src="tictactoeselectsymbol.png" border="3" style="width:50%">
+    <img src="Images/AppImages/tictactoeselectsymbol.png" border="3" style="width:50%">
     <div class="text"></div>
   </div>
   <div class="tictactoe fade">
     <div class="numbertext"><b>Tic Tac Toe</b></div>
-    <img src="tictactoeselectdifficulty.png" border="3" style="width:50%">
+    <img src="Images/AppImages/tictactoeselectdifficulty.png" border="3" style="width:50%">
     <div class="text"></div>
   </div>
   <div class="tictactoe fade">
     <div class="numbertext"><b>Tic Tac Toe</b></div>
-    <img src="tictactoegameplay.png" border="3" style="width:50%">
+    <img src="Images/AppImages/tictactoegameplay.png" border="3" style="width:50%">
     <div class="text"></div>
   </div>
   <div class="tictactoe fade">
     <div class="numbertext"><b>Tic Tac Toe</b></div>
-    <img src="tictactoewinscreen.png" border="3" style="width:50%">
+    <img src="Images/AppImages/tictactoewinscreen.png" border="3" style="width:50%">
     <div class="text"></div>
   </div>
 </div>
+
 
   <!-- Next and previous buttons -->
   <a class="prev" onclick="plusSlides(-1, 'tictactoe')">&#10094;</a>
   <a class="next" onclick="plusSlides(1, 'tictactoe')">&#10095;</a>
 
-<br>
-<br><br>
   </div>
   <div class="column">
 	<h1 style="text-align:right;"> Video Games </h1>
@@ -201,10 +223,7 @@ the Google Play store. In addition to Mobile Development Bridget is also part of
 </div>
         
 
-
-
-
-
+<!--<script src="AppPictureSlides.js"></script>-->
 <script>
 
 var slideIndex = 1;
@@ -261,16 +280,7 @@ function showSlides(n, app) {
 </script>
 
 
-<!--
-<div id="SideNav" class="sidenav">
-<br><br>
-	<a href="index.html" " onclick="return true">About</a><br>
-	<a href="portfolio.html" " onclick="return true">Portfolio</a><br>
-	<a href="contact.html" " onclick="return true">Contact</a><br>
-	<a href="mailto:bridgetnaylor2000&#64
-gmail.com" >Send us</a><br>-->
-	
-</div>
+
 
 <div id="Footer">
 	<a href="#top">Return to top</a>
