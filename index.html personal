@@ -7,7 +7,7 @@
 	<link rel="icon" class="img-circle" href="croppedprofilepic.png" >
 	<title >Bridget Naylor Homepage</title>
 	
-	<link rel="stylesheet" href="\home\zz\025531413\htdocs\mystyle.css">
+	<link rel="stylesheet" href="mystyle.css">
 
 	<style>
 		body {
