@@ -8,23 +8,45 @@
 	<title >Bridget Naylor Homepage</title>
 	
 	<link rel="stylesheet" href="mystyle.css">
-
-	<style>
-		body {
+	<link rel="stylesheet" href="http://web.csulb.edu/~025531413/home/zz/025531413/htdocs/mystyle.css">
+<style>
+body {
   height: 100%;
   margin: 0;
   font-family: "Lato", sans-serif;
 }
-		p {
-		font-size: 180%;
-		line-height:2;
-	
-		}
+p {
+	font-size: 180%;
+	line-height:2;	
+}
+
+
+
+<!--Portfolio starts-->
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+<!--Portfolio ends-->
 
 		/* The ocean image */
 .ocean-image {
   /* Use "linear-gradient" to add a darken background effect to the image (greentrex.png). This will make the text easier to read */
-  	background-image: url("Images/Background/banner.jpg");
+  	background-image: url("banner.jpg");
 
   /* Set a specific height */
   	height: 100%;
@@ -46,25 +68,25 @@
 
 }
 
-<!--Portfolio stats -->
+.Footer {
+	background-image: url("FooterPic.png");
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
 
-* {
-  box-sizing: border-box;
+	padding: 10px;
+  	border: 1px solid #000000;
 }
 
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
+
+#footer-text{
+	text-align: left;
+	line-height:2;	
 }
 
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-	</style>
+</style>
+	
 </head>
 <body>
 <a id="top"><a/>
@@ -279,12 +301,18 @@ function showSlides(n, app) {
 
 </script>
 
+<!--Portfolio ends-->
+<!--Skills Section Starts-->
+<div id ="Skills">
 
 
 
-<div id="Footer">
-	<a href="#top">Return to top</a>
-	<br>&copy2020. Bridget Naylor. All Rights Reserved.
+</div>
+
+
+<div class="Footer">
+	<p id ="footer-text" ><a href="#top">Return to top</a>
+	<br>&copy2020. Bridget Naylor. All Rights Reserved.</p>
 </div>
 </body>
 </html>
