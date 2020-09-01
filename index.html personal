@@ -4,7 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 	<meta name="description" content="Bridget Naylor professional website and skills information" />
 	<meta name="author" content="Bridget Naylor" />
-	<link rel="icon" class="img-circle" href="croppedprofilepic.png" >
+	<link rel="icon" class="img-circle" href="Images/Background/croppedprofilepic.png" >
 	<title >Bridget Naylor Homepage</title>
 	
 	<link rel="stylesheet" href="mystyle.css">
@@ -75,7 +75,7 @@ p {
   	background-size: cover;
   	position: relative;
 
-	padding: 10px;
+	padding: 50px;
   	border: 1px solid #000000;
 }
 
@@ -83,6 +83,15 @@ p {
 #footer-text{
 	text-align: left;
 	line-height:2;	
+}
+
+table, th, td {
+ 	border: 3px solid black;
+	border-color: black;
+}
+th, td {
+  padding: 20px;
+  text-align: center;    
 }
 
 </style>
@@ -111,15 +120,12 @@ p {
 
 <!--Portfolio stats -->
 
-<h1><center><u> Portfolio </u></center></h1>
-  <!-- Full-width images with number and caption text -->
-<div class="row">
-  <div class="column">
-    <div class="slideshow-container">
+<table style="width:100%">
 
+<td colspan="3" ><h1 style="text-align:center;">Mobile Apps</h1></td>
 
-<h1> Android Mobile Apps </h1>
-  <div class="collegetour fade">
+  <tr><th>
+    <div class="collegetour fade">
     <div class="numbertext"><b>College Tour</b></div>
     <img src="Images/AppImages/Collegetourtitlepage.png" border="3" style="width:50%">
     <div class="text"></div>
@@ -144,13 +150,11 @@ p {
     <img src="Images/AppImages/collegetourbuildingdescription.png" border="3" style="width:50%">
     <div class="text"></div>
   </div>
-
   <!-- Next and previous buttons -->
   <a class="prev" onclick="plusSlides(-1, 'collegetour')">&#10094;</a>
-  <a class="next" onclick="plusSlides(1, 'collegetour')">&#10095;</a>
-</div>
+  <a class="next" onclick="plusSlides(1, 'collegetour')">&#10095;</a></th>
 
-<div class="slideshow-container2">
+    <td><div class="slideshow-container2">
   <div class="converter fade">
     <div class="numbertext"><b>Number Systems Converter</b></div>
     <img src="Images/AppImages/titlepageconverter.png" border="3" style="width:50%">
@@ -182,12 +186,10 @@ p {
     <div class="text"></div>
   </div>
 </div>
-
   <!-- Next and previous buttons -->
   <a class="prev" onclick="plusSlides(-1, 'converter')">&#10094;</a>
-  <a class="next" onclick="plusSlides(1, 'converter')">&#10095;</a>
-
-<div class="slideshow-container3">
+  <a class="next" onclick="plusSlides(1, 'converter')">&#10095;</a></td>
+<td><div class="slideshow-container3">
   <div class="tictactoe fade">
     <div class="numbertext"><b>Tic Tac Toe</b></div>
     <img src="Images/AppImages/titactotitle.png" border="3" style="width:50%">
@@ -214,37 +216,10 @@ p {
     <div class="text"></div>
   </div>
 </div>
-
-
   <!-- Next and previous buttons -->
   <a class="prev" onclick="plusSlides(-1, 'tictactoe')">&#10094;</a>
-  <a class="next" onclick="plusSlides(1, 'tictactoe')">&#10095;</a>
-
-  </div>
-  <div class="column">
-	<h1 style="text-align:right;"> Video Games </h1>
-  <div class="raccoongroupproject fade">
-    <div class="text"></div>
-  </div>
-<div class="numbertext" style="text-align:right;"><b >Protect the Bin: Crabs vs. Raccoons<br> (Use WASD keys to view map)</b></div>
-    <script src="TemplateData/UnityProgress.js"></script>
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebBuild.json", {onProgress: UnityProgress});
-    </script>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-
-      </div>
-    </div>
-
-  </div>
-</div>
-        
-
+  <a class="next" onclick="plusSlides(1, 'tictactoe')">&#10095;</a></td>
+  </tr>
 <!--<script src="AppPictureSlides.js"></script>-->
 <script>
 
@@ -300,8 +275,33 @@ function showSlides(n, app) {
 
 
 </script>
+</table>
 
-<!--Portfolio ends-->
+
+<h1 style="text-align:center;"> Video Games </h1>
+  <div class="raccoongroupproject fade">
+    <div class="text"></div>
+  </div>
+<div style="text-align:center;"> >Protect the Bin: Crabs vs. Raccoons<br> (Use WASD keys to view map)</b></div>
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebBuild.json", {onProgress: UnityProgress});
+    </script>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+        
+
+
 <!--Skills Section Starts-->
 <div id ="Skills">
 
