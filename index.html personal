@@ -20,8 +20,6 @@ p {
 	line-height:2;	
 }
 
-
-
 <!--Portfolio starts-->
 
 * {
@@ -45,28 +43,30 @@ p {
 
 		/* The ocean image */
 .ocean-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (greentrex.png). This will make the text easier to read */
+	filter: brightness(120%);
   	background-image: url("banner.jpg");
-
-  /* Set a specific height */
-  	height: 100%;
-
-  /* Position and center the image to scale nicely on all screens */
+	
+  	height: 200px;
   	background-position: center;
   	background-repeat: no-repeat;
   	background-size: cover;
   	position: relative;
-
-	padding: 110px;
+	padding: 5%;
   	border: 1px solid #000000;
+  	z-index: -1;
+	
+	
  	
 } 
 
 .img-circle {
 	border-radius: 50%;
 	background-position: center;
+	filter: brightness(80%);
 
 }
+
+
 
 .Footer {
 	background-image: url("FooterPic.png");
@@ -74,8 +74,7 @@ p {
   	background-repeat: no-repeat;
   	background-size: cover;
   	position: relative;
-
-	padding: 50px;
+	padding: 5%;
   	border: 1px solid #000000;
 }
 
@@ -84,6 +83,8 @@ p {
 	text-align: left;
 	line-height:2;	
 }
+
+
 
 table, th, td {
  	border: 3px solid black;
@@ -97,23 +98,33 @@ th, td {
 </style>
 	
 </head>
+
+
+
 <body>
 <a id="top"><a/>
 
 
-
+<!--Add website nav circle buttons at top:About, portfolio, Contact-->
+<!--Create a table to the top info and buttons-->
 <div class="ocean-image">
 
-            	<br><center><img class="img-circle" src="Images/Background/croppedprofilepic.png" alt="profilepic" width="300" height="300"> 
-		<h1 id = "namefirst" >Bridget Naylor</h1></center>
+            	<br><img class="img-circle" src="Images/Background/croppedprofilepic.png" alt="profilepic" width="400" height="400"> 
+		<button class="button button1">About</button>
+		<button class="button button1">Portfolio</button>
+		<button class="button button1">Contact</button>
+		<h1 id = "namefirst" >Bridget Naylor</h1>
+		<ul> 
+			<h1> 
+			<li>Gpa: 3.7</li><br>
+			<li>Sophmore</li><br>
+			<li>Long Beach State University Student</li><br>
+			<li>Experience: Java, XML, Android Studio, Javascript, Python, Html, CSS</li><br>
+			</h1>
 
-	<div id="Description">
-		<center><p>I am currently a pre-computer science student at California State University Long Beach<br> 
-	with a particular interest in <strong>Android Mobile Development</strong>. I currently have 3 apps on <br> 
-	the Google Play store. In addition to Mobile Development I am also part of the<br> 
-	<strong>Video Game Development Club</strong> at CSULB. When I'm not coding, I<br> spend my time running, rock climbing, or practicing Chinese.
-	</p></center></div>
+		</ul>
 
+</div>
 	
 </div>
 
@@ -275,30 +286,35 @@ function showSlides(n, app) {
 
 
 </script>
-</table>
 
+<td colspan="3" ><h1 style="text-align:center;">Video Games</h1></td>
+<tr ><th colspan="3">
 
-<h1 style="text-align:center;"> Video Games </h1>
-  <div class="raccoongroupproject fade">
-    <div class="text"></div>
-  </div>
-<div style="text-align:center;"> >Protect the Bin: Crabs vs. Raccoons<br> (Use WASD keys to view map)</b></div>
-    <script src="TemplateData/UnityProgress.js"></script>
+<div style="text-align:center;"> Protect the Bin: Crabs vs. Raccoons<br> (Use WASD keys to view map)</b></div>
+    
+<center><script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebBuild.json", {onProgress: UnityProgress});
     </script>
-    <div class="webgl-content">
+    <div class="webgl-content" style="text-align:center;">
       <div id="gameContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
         <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+</center>
+</div>
 
-      </div>
+
+</table>
+
+
+
     </div>
 
   </div>
 </div>
+
         
 
 
